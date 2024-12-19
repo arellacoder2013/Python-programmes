@@ -4,7 +4,8 @@ def initial_slambook():
     slam_book=[]
     print(slam_book)
     for i in range(rows):
-        print("Enter the details in following order")
+        print("Hello friends welcome to our Slambook")
+        print("You may now proceed and fill in details about your friends")
         temp=[]
         for j in range(cols):
             if j ==0:
@@ -21,6 +22,23 @@ def initial_slambook():
                 temp.append(str(input("Enter category(Family/Friends/Work/Others):")))
                 if temp[j]==""or temp[j]==" ":
                     temp[j]=None
-        slam_book.append(temp)
-    print(slam_book)
+       
+def thanks():
+    print("Thank you for using our slambook!. ")
+    print("Please visit again!!")
+    sys.exit("Goodbye,Have a nice day ahead")
+    ch = 1
+    pb =initial_slambook()
+    while ch in((1,2,3,4,5)):
+        ch=menu()
+        if ch ==1:
+            pb = add_contact(pb)
+        else :
+            thanks()
+    phonebook.append(temp)
+    print(phonebook)
 pb=initial_slambook()
+    
+
+    
+    
