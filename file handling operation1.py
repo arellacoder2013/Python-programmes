@@ -1,4 +1,4 @@
-f1=open("C:/Users/Owner/Downloads/Python programmes/ourfile.txt",'r')
+f1=open("C:/Users/Owner/Downloads/Python programmes/ourfile.txt")
 print(f1.read())
 print(f1.read(12))
 print(f1.readline())
