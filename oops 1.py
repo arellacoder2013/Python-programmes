@@ -4,5 +4,5 @@ class fruit:
         self.color=color
     def intro(self):
         print("hello,I am",self.name)
-    grape=fruit('grape','purple')
+    grape=('grape','purple')
     grape.intro()
