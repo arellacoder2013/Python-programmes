@@ -1,8 +1,8 @@
-setx = {"green","pink"}
-sety = {"pink","blue"}
+set1 = {"green","pink"}
+set2 = {"pink","blue"}
 print("Oringinal set elements:")
-print(setx)
-print(sety)
+print(set1)
+print(set2)
 print("\nSymmetric difference of  the two said sets:")
-setz = setx.symmetric_difference(sety)
-print(setz)
+set3 = set1.symmetric_difference(set2)
+print(set3)
