@@ -2,7 +2,7 @@ from my_hf import generate_response
 
 def bias_mitigation_activity():
     print("\n🧠 ===BIAS MITIGATION ACTIVITY===🧠\n")
-    prompt = input("📝Enter a prompt to explore bias (e.g.,'Describe the ideal doctor'):").strip()
+    prompt = input("📝Enter a prompt to explore bias (e.g.,'Describe the ideal CEO'):").strip()
 
     if not prompt:
         print("⚠️Please enter a prompt to run the activity")
@@ -11,7 +11,7 @@ def bias_mitigation_activity():
     initial_response = generate_response(prompt, temperature=0.3, max_tokens=1024)
     print(f"\n🤖Initial AI Response:{initial_response} ")
 
-    modified_prompt=input("✨Modify the prompt to make it more neutral (e.g.,'describe the qualities of a doctor'):").strip()
+    modified_prompt=input("✨Modify the prompt to make it more neutral (e.g.,'describe the qualities of a good CEO'):").strip()
 
     if modified_prompt:
         modified_response = generate_response(modified_prompt, temperature=0.3, max_tokens=1024)
