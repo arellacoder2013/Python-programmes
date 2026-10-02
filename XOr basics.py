@@ -1,0 +1,14 @@
+
+#XOR identity and equality.XOR cancellation
+input("XOR with 0 keeps the number.Press enter")
+print("5^0 = ",5^0)
+print("9^0 = ",9^0)
+
+input("XOR with itself gives 0.Press enter")
+print("5^5 = ",5^5)
+print("9^9 = ",9^9)
+
+n=int(input("Enter a number (try 6 or 11):"))
+guess = input("What is 3^"+str(n) +"^3")
+input("XOR cancles -3 appears twice so it disappears.Press enter")
+print("3^",n," 3=,",3^n^3," your guess: ",guess)
