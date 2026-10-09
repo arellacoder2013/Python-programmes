@@ -1,0 +1,14 @@
+#swap without a third variable ,XOR swap
+
+input("XOR swap -exchange two values without a third variable .Press enter")
+print(" before:a=5, b=9")
+a = 5
+b = 9
+print(" after: a =", a, ", b =", b)
+
+n=int(input("Enter a number try(3 or 7):"))
+guess = input("After XOR swap of "+str(n)+" and 8 what does n become? ")
+a,b=n,8
+a ^=b; b^=a; a^=b
+input("R swap exchanges the values.Press enter")
+print(" n became;",a,"your guess:",guess)
